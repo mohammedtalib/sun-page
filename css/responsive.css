@@ -1,0 +1,281 @@
+/*
+==========================
+         main Part
+==========================
+*/
+
+@media screen and (max-width: 575px){
+
+    /*==========================
+            main Part
+     ==========================*/
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: none;
+        margin: 10px 0;
+    }
+    
+    .main .home {
+        width: 100%;
+        text-align: none;
+        text-justify: none;
+    }
+
+    .main .home .home-pargraph {
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .main .image-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .image-home .background-img{
+        position: relative;
+        background: #fff;
+        box-shadow: 1px 2px 10px #888888;
+        width: 330px;
+        height: 230px;  
+      }
+      
+      .main .image-home .background-img img{
+          position: absolute;
+          top:5px;
+          left: 5px;
+          width: 320px;
+          height: 220px;
+      }
+
+      /*==========================
+            about Part
+     ==========================*/
+
+     .about{
+        height: 400px;
+        background-color: #f7f7f7;
+        margin: auto;
+        width: 100%;
+    }
+    
+    
+    .about .about_Us{ 
+        padding-top: 20px;  
+    }
+
+    .about .about_Us p{
+        color: #333;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 14px;
+    }
+
+
+
+
+    /*==========================
+           beliefs Part
+     ==========================*/
+
+     .beliefs{
+        height: 500px;
+    }
+
+     .beliefs .Our_beliefs{
+        padding-top: 50px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /*
+    ==========================
+            Contact Part
+    ==========================
+    */
+
+
+
+    .Contact-Us .info {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+    /*==========================
+            main Part
+     ==========================*/
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: none;
+        margin: 10px 0;
+    }
+    
+    .main .home {
+        width: 100%;
+        text-align: none;
+        text-justify: none;
+    }
+
+    .main .home .home-pargraph {
+        letter-spacing: 0;
+    }
+
+    .main .image-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .image-home .background-img{
+        position: relative;
+        background: #fff;
+        box-shadow: 1px 2px 10px #888888;
+        width: 370px;
+        height: 270px;  
+      }
+      
+      .main .image-home .background-img img{
+          position: absolute;
+          top:5px;
+          left: 5px;
+          width: 360px;
+          height: 260px;
+      }
+
+     /*==========================
+            about Part
+     ==========================*/
+
+     .about{
+        height: 410px;
+        width: 100%;
+    }
+    
+    
+    .about .about_Us{ 
+        padding-top: 20px;  
+    }
+
+
+     /*==========================
+           beliefs Part
+     ==========================*/
+
+     .beliefs{
+        height: 500px;
+    }
+
+     .beliefs .Our_beliefs{
+        padding-top: 50px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+        /*
+    ==========================
+            Contact Part
+    ==========================
+    */
+
+
+
+    .Contact-Us .info {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    /*==========================
+            main Part
+     ==========================*/
+     .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: none;
+        margin: 10px 0;
+    }
+    
+    .main .home {
+        width: 100%;
+        text-align: none;
+        text-justify: none;
+    }
+
+    .main .home .home-pargraph {
+        letter-spacing: 0;
+    }
+
+    .main .image-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .image-home .background-img{
+        position: relative;
+        background: #fff;
+        box-shadow: 1px 2px 10px #888888;
+        width: 370px;
+        height: 270px;  
+      }
+      
+      .main .image-home .background-img img{
+          position: absolute;
+          top:5px;
+          left: 5px;
+          width: 360px;
+          height: 260px;
+      }
+
+     /*==========================
+            about Part
+     ==========================*/
+
+     .about{
+        height: 410px;
+        width: 100%;
+    }
+    
+    
+    .about .about_Us{ 
+        padding-top: 20px;  
+    }
+
+
+    /*==========================
+           beliefs Part
+     ==========================*/
+
+     .beliefs{
+        height: 500px;
+    }
+
+     .beliefs .Our_beliefs{
+        width: 100%;
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    /*==========================
+           beliefs Part
+     ==========================*/
+
+     .beliefs{
+        height: 500px;
+    }
+    
+}
