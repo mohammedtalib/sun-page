@@ -93,6 +93,7 @@
 
      .beliefs{
         height: 500px;
+        background-attachment:scroll;
     }
 
      .beliefs .Our_beliefs{
@@ -189,6 +190,7 @@
 
      .beliefs{
         height: 500px;
+        background-attachment:scroll;
     }
 
      .beliefs .Our_beliefs{
@@ -278,6 +280,7 @@
 
      .beliefs{
         height: 500px;
+        background-attachment:scroll;
     }
 
      .beliefs .Our_beliefs{
@@ -296,6 +299,7 @@
 
      .beliefs{
         height: 500px;
+        background-attachment:scroll;
     }
     
 }
